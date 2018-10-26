@@ -1,0 +1,56 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+:root {
+  --white: #F5F5F5;
+  --green: #7AC0B4;
+  --orange: #F2A181;
+  --black: #3A3A3A;
+  --grey: #9D9D9D;
+}
+
+/* Change Original Colors */
+.navbar-dark {
+  background-color: var(--green)!important;
+}
+
+.border-right {
+  border-right-color: var(--black)!important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: var(--black);
+} 
+
+.btn-primary {
+  background-color: var(--orange)!important;
+  border: none!important;
+}
+
+.bg-white {
+  background-color: var(--white)!important;
+}
+
+
+/* Additional Changes  */
+.nav-tabs .nav-link.active {
+  border: none!important;
+}
+.nav-tabs,
+.nav-tabs .nav-link {
+    border: none!important;
+    margin-bottom: 10px;
+}
+.nav-tabs .active {
+    padding: 4px 32px!important;
+    background-color: var(--orange)!important;
+    color: var(--white)!important;
+}
+.nav-tabs a {
+    padding: 4px 32px!important;
+    border-radius: 0!important;
+    background-color: var(--grey)!important;
+    color: var(--black)!important;
+}
+.tab-content .tab-pane {
+  margin-top: 10px;
+  border: 1px groove var(--black);
+}
